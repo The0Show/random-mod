@@ -9,6 +9,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "random_mod_tab"
+    },
+    {
+      "name": "RandomModOverlay",
+      "type": "overlay",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "random_mod_overlay"
     }
   ],
   "variable_elements": [],
