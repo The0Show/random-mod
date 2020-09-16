@@ -1,0 +1,36 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "fire_stick",
+    "customModelName": "Normal",
+    "name": "Fire Stick",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:RandomModTab"
+    },
+    "toolType": "MultiTool",
+    "harvestLevel": 0,
+    "efficiency": 2.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "Items.FLINT_AND_STEEL"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedOnBlock": {
+      "name": "FireStickRightClickedOnBlock"
+    },
+    "onEntityHitWith": {
+      "name": "FireStickLivingEntityIsHitWithTool"
+    }
+  }
+}
