@@ -1,0 +1,38 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "RandomModTab",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "random_mod_tab"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tabrandom_mod_tab": "Random Mod"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "random_mod",
+    "modName": "Random Mod",
+    "version": "1.0.0",
+    "author": "jomst, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "modElementsPackage": "com.the0show.randommod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000432115
+}
