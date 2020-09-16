@@ -11,15 +11,6 @@
       "registry_name": "random_mod_tab"
     },
     {
-      "name": "RandomModOverlay",
-      "type": "overlay",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "random_mod_overlay"
-    },
-    {
       "name": "FireStickLivingEntityIsHitWithTool",
       "type": "procedure",
       "sortid": 3,

@@ -18,6 +18,6 @@ public class FireStickLivingEntityIsHitWithToolProcedure extends RandomModModEle
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		entity.setFire((int) 5);
+		entity.setFire((int) 18);
 	}
 }
