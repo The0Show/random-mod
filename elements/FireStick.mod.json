@@ -26,9 +26,6 @@
     ],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
-    "onRightClickedOnBlock": {
-      "name": "FireStickRightClickedOnBlock"
-    },
     "onEntityHitWith": {
       "name": "FireStickLivingEntityIsHitWithTool"
     }
