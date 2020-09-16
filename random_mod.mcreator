@@ -64,6 +64,50 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "fire_stick"
+    },
+    {
+      "name": "FireStickCrafting",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_stick_crafting"
+    },
+    {
+      "name": "CoolPeopleCommandExecuted",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cool_people_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CoolPeople",
+      "type": "command",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cool_people"
+    },
+    {
+      "name": "CoolPeopleReward",
+      "type": "achievement",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cool_people_reward"
     }
   ],
   "variable_elements": [],
@@ -71,7 +115,9 @@
   "language_map": {
     "en_us": {
       "item.random_mod.fire_stick": "Fire Stick",
-      "itemGroup.tabrandom_mod_tab": "Random Mod"
+      "advancements.cool_people_reward.descr": "Visit the cool people house.",
+      "itemGroup.tabrandom_mod_tab": "Random Mod",
+      "advancements.cool_people_reward.title": "Those are Cool People!"
     }
   },
   "workspaceSettings": {
