@@ -1,1 +1,11 @@
-{}
+{
+  "musicdisc.sawsquare": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "random_mod:sawsquarenoise_-_03_-_towel_defence_ingame",
+        "stream": true
+      }
+    ]
+  }
+}

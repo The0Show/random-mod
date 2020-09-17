@@ -4,8 +4,8 @@
   "definition": {
     "name": "Random Mod",
     "icon": {
-      "value": "Blocks.LOG"
+      "value": "Blocks.FIRE"
     },
-    "showSearch": true
+    "showSearch": false
   }
 }
