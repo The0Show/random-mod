@@ -47,8 +47,8 @@ public class RandomModModElements {
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public RandomModModElements() {
-		sounds.put(new ResourceLocation("random_mod", "musicdisc.sawsquare"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("random_mod", "musicdisc.sawsquare")));
+		sounds.put(new ResourceLocation("random_mod", "musicdisc.rickroll"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("random_mod", "musicdisc.rickroll")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("random_mod").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

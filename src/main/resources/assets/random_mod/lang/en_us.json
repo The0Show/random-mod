@@ -1,9 +1,9 @@
 {
+  "item.random_mod.rickroll.desc": "Never Gonna Give You Up - Rick Astley",
+  "item.random_mod.rickroll": "Never Gonna Give You Up",
   "item.random_mod.fire_stick": "Fire Stick",
   "advancements.cool_people_reward.descr": "Visit the cool people house.",
-  "item.random_mod.song_1": "Saw Square",
   "itemGroup.tabrandom_mod_tab": "Random Mod",
   "advancements.cool_people_reward.title": "Those are Cool People!",
-  "item.random_mod.diamond_dimention": "Diamond Dimention Portal Igniter",
-  "item.random_mod.song_1.desc": "Saw Square from Towel Defence Simulator"
+  "item.random_mod.diamond_dimention": "Diamond Dimention Portal Igniter"
 }

@@ -1,9 +1,9 @@
 {
-  "musicdisc.sawsquare": {
+  "musicdisc.rickroll": {
     "category": "record",
     "sounds": [
       {
-        "name": "random_mod:sawsquarenoise_-_03_-_towel_defence_ingame",
+        "name": "random_mod:rick_astley_-_never_gonna_give_you_up_video",
         "stream": true
       }
     ]
