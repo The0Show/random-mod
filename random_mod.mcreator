@@ -193,6 +193,32 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "smite_stick"
+    },
+    {
+      "name": "FriendlyPotionFoodEaten",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "friendly_potion_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FriendlyPotion",
+      "type": "food",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "friendly_potion"
     }
   ],
   "variable_elements": [],
@@ -206,6 +232,7 @@
   "language_map": {
     "en_us": {
       "item.random_mod.smite_stick": "Smite Stick",
+      "item.random_mod.friendly_potion": "Friendly Potion",
       "item.random_mod.fire_stick": "Fire Stick",
       "advancements.cool_people_reward.descr": "Visit the cool people house.",
       "itemGroup.tabrandom_mod_tab": "Random Mod",
