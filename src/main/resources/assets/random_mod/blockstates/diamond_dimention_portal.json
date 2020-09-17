@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "random_mod:block/diamond_dimention_portal_ew"
+    },
+    "axis=x": {
+      "model": "random_mod:block/diamond_dimention_portal_ns"
+    }
+  }
+}
