@@ -228,6 +228,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "long_food"
+    },
+    {
+      "name": "DiscordLT",
+      "type": "gun",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "discord_lt"
     }
   ],
   "variable_elements": [],
@@ -247,7 +256,8 @@
       "itemGroup.tabrandom_mod_tab": "Random Mod",
       "advancements.cool_people_reward.title": "Those are Cool People!",
       "item.random_mod.diamond_dimention": "Diamond Dimention Portal Igniter",
-      "item.random_mod.long_food": "Twizzlers"
+      "item.random_mod.discord_lt": "Arrow Minigun",
+      "item.random_mod.long_food": "Twizzler"
     }
   },
   "workspaceSettings": {
