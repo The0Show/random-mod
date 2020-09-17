@@ -135,6 +135,73 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "rickroll"
+    },
+    {
+      "name": "SmiteStickRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smite_stick_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SmiteStickLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smite_stick_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SmiteStick",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smite_stick"
     }
   ],
   "variable_elements": [],
@@ -148,6 +215,7 @@
   "language_map": {
     "en_us": {
       "item.random_mod.rickroll.desc": "Never Gonna Give You Up - Rick Astley",
+      "item.random_mod.smite_stick": "Smite Stick",
       "item.random_mod.rickroll": "Never Gonna Give You Up",
       "item.random_mod.fire_stick": "Fire Stick",
       "advancements.cool_people_reward.descr": "Visit the cool people house.",
