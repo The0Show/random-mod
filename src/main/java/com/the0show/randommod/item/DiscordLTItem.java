@@ -41,9 +41,9 @@ import com.the0show.randommod.RandomModModElements;
 
 @RandomModModElements.ModElement.Tag
 public class DiscordLTItem extends RandomModModElements.ModElement {
-	@ObjectHolder("random_mod:discord_lt")
+	@ObjectHolder("random_mod:arrow_minigun")
 	public static final Item block = null;
-	@ObjectHolder("random_mod:entitybulletdiscord_lt")
+	@ObjectHolder("random_mod:entitybulletarrow_minigun")
 	public static final EntityType arrow = null;
 	public DiscordLTItem(RandomModModElements instance) {
 		super(instance, 17);
@@ -54,7 +54,7 @@ public class DiscordLTItem extends RandomModModElements.ModElement {
 		elements.items.add(() -> new ItemRanged());
 		elements.entities.add(() -> (EntityType.Builder.<ArrowCustomEntity>create(ArrowCustomEntity::new, EntityClassification.MISC)
 				.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
-				.size(0.5f, 0.5f)).build("entitybulletdiscord_lt").setRegistryName("entitybulletdiscord_lt"));
+				.size(0.5f, 0.5f)).build("entitybulletarrow_minigun").setRegistryName("entitybulletarrow_minigun"));
 	}
 
 	@Override
@@ -66,7 +66,7 @@ public class DiscordLTItem extends RandomModModElements.ModElement {
 	public static class ItemRanged extends Item {
 		public ItemRanged() {
 			super(new Item.Properties().group(RandomModTabItemGroup.tab).maxDamage(100));
-			setRegistryName("discord_lt");
+			setRegistryName("arrow_minigun");
 		}
 
 		@Override
