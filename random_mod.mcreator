@@ -237,6 +237,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "arrow_minigun"
+    },
+    {
+      "name": "Megalovania",
+      "type": "musicdisc",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "megalovania"
     }
   ],
   "variable_elements": [],
@@ -245,11 +254,18 @@
       "name": "musicdisc.rickroll",
       "file": "rick_astley_-_never_gonna_give_you_up_video",
       "category": "record"
+    },
+    {
+      "name": "musicdisc.megalovania",
+      "file": "undertale_ost_100_-_megalovania",
+      "category": "record"
     }
   ],
   "language_map": {
     "en_us": {
       "item.random_mod.smite_stick": "Smite Stick",
+      "item.random_mod.megalovania": "Megalovania",
+      "item.random_mod.megalovania.desc": "Toby Fox - Megalovania",
       "item.random_mod.friendly_potion": "Friendly Potion",
       "item.random_mod.arrow_minigun": "Arrow Minigun",
       "item.random_mod.fire_stick": "Fire Stick",

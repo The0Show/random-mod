@@ -1,0 +1,17 @@
+{
+  "_fv": 10,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "unnamed",
+    "name": "Megalovania",
+    "description": "Toby Fox - Megalovania",
+    "creativeTab": {
+      "value": "CUSTOM:RandomModTab"
+    },
+    "music": {
+      "value": "CUSTOM:musicdisc.megalovania"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

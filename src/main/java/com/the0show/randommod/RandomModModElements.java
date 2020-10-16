@@ -49,6 +49,8 @@ public class RandomModModElements {
 	public RandomModModElements() {
 		sounds.put(new ResourceLocation("random_mod", "musicdisc.rickroll"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("random_mod", "musicdisc.rickroll")));
+		sounds.put(new ResourceLocation("random_mod", "musicdisc.megalovania"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("random_mod", "musicdisc.megalovania")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("random_mod").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
